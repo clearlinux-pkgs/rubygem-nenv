@@ -4,7 +4,7 @@
 #
 Name     : rubygem-nenv
 Version  : 0.3.0
-Release  : 3
+Release  : 4
 URL      : https://rubygems.org/downloads/nenv-0.3.0.gem
 Source0  : https://rubygems.org/downloads/nenv-0.3.0.gem
 Summary  : No detailed summary available
@@ -50,56 +50,19 @@ fi
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/nenv-0.3.0.gem
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/AutoEnvironment/cdesc-AutoEnvironment.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/AutoEnvironment/method_missing-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Builder/build-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Builder/cdesc-Builder.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/AlreadyExistsError/cdesc-AlreadyExistsError.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/AlreadyExistsError/message-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/Dumper/Default/call-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/Dumper/Default/cdesc-Default.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/Dumper/cdesc-Dumper.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/Dumper/setup-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/Error/cdesc-Error.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/Loader/Default/call-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/Loader/Default/cdesc-Default.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/Loader/Predicate/call-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/Loader/Predicate/cdesc-Predicate.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/Loader/cdesc-Loader.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/Loader/setup-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/MethodError/cdesc-MethodError.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/MethodError/new-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/_create_env_accessor-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/_create_env_reader-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/_create_env_writer-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/_fail_if_accessor_exists-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/_namespaced_sanitize-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/_sanitize-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/cdesc-Environment.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/create_method-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/create_method-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/Environment/new-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/cdesc-Nenv.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/instance-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/method_missing-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/reset-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Nenv/respond_to%3f-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Object/Nenv-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/Object/cdesc-Object.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nenv-0.3.0/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/gems/nenv-0.3.0/.gitignore
-/usr/lib64/ruby/gems/2.2.0/gems/nenv-0.3.0/LICENSE.txt
-/usr/lib64/ruby/gems/2.2.0/gems/nenv-0.3.0/README.md
-/usr/lib64/ruby/gems/2.2.0/gems/nenv-0.3.0/lib/nenv.rb
-/usr/lib64/ruby/gems/2.2.0/gems/nenv-0.3.0/lib/nenv/autoenvironment.rb
-/usr/lib64/ruby/gems/2.2.0/gems/nenv-0.3.0/lib/nenv/builder.rb
-/usr/lib64/ruby/gems/2.2.0/gems/nenv-0.3.0/lib/nenv/environment.rb
-/usr/lib64/ruby/gems/2.2.0/gems/nenv-0.3.0/lib/nenv/environment/dumper.rb
-/usr/lib64/ruby/gems/2.2.0/gems/nenv-0.3.0/lib/nenv/environment/dumper/default.rb
-/usr/lib64/ruby/gems/2.2.0/gems/nenv-0.3.0/lib/nenv/environment/loader.rb
-/usr/lib64/ruby/gems/2.2.0/gems/nenv-0.3.0/lib/nenv/environment/loader/default.rb
-/usr/lib64/ruby/gems/2.2.0/gems/nenv-0.3.0/lib/nenv/environment/loader/predicate.rb
-/usr/lib64/ruby/gems/2.2.0/gems/nenv-0.3.0/lib/nenv/version.rb
-/usr/lib64/ruby/gems/2.2.0/gems/nenv-0.3.0/nenv.gemspec
-/usr/lib64/ruby/gems/2.2.0/specifications/nenv-0.3.0.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/nenv-0.3.0.gem
+/usr/lib64/ruby/gems/2.3.0/gems/nenv-0.3.0/.gitignore
+/usr/lib64/ruby/gems/2.3.0/gems/nenv-0.3.0/LICENSE.txt
+/usr/lib64/ruby/gems/2.3.0/gems/nenv-0.3.0/README.md
+/usr/lib64/ruby/gems/2.3.0/gems/nenv-0.3.0/lib/nenv.rb
+/usr/lib64/ruby/gems/2.3.0/gems/nenv-0.3.0/lib/nenv/autoenvironment.rb
+/usr/lib64/ruby/gems/2.3.0/gems/nenv-0.3.0/lib/nenv/builder.rb
+/usr/lib64/ruby/gems/2.3.0/gems/nenv-0.3.0/lib/nenv/environment.rb
+/usr/lib64/ruby/gems/2.3.0/gems/nenv-0.3.0/lib/nenv/environment/dumper.rb
+/usr/lib64/ruby/gems/2.3.0/gems/nenv-0.3.0/lib/nenv/environment/dumper/default.rb
+/usr/lib64/ruby/gems/2.3.0/gems/nenv-0.3.0/lib/nenv/environment/loader.rb
+/usr/lib64/ruby/gems/2.3.0/gems/nenv-0.3.0/lib/nenv/environment/loader/default.rb
+/usr/lib64/ruby/gems/2.3.0/gems/nenv-0.3.0/lib/nenv/environment/loader/predicate.rb
+/usr/lib64/ruby/gems/2.3.0/gems/nenv-0.3.0/lib/nenv/version.rb
+/usr/lib64/ruby/gems/2.3.0/gems/nenv-0.3.0/nenv.gemspec
+/usr/lib64/ruby/gems/2.3.0/specifications/nenv-0.3.0.gemspec
