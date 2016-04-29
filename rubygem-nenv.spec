@@ -4,7 +4,7 @@
 #
 Name     : rubygem-nenv
 Version  : 0.3.0
-Release  : 4
+Release  : 5
 URL      : https://rubygems.org/downloads/nenv-0.3.0.gem
 Source0  : https://rubygems.org/downloads/nenv-0.3.0.gem
 Summary  : No detailed summary available
